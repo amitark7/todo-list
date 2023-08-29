@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.messageBox{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: left;
+    overflow-y: auto;
+}
+.messageBox>text{
+    width: 70%;
+}
+.text>h3{
+    color: black;
+    padding: 5px 8px;
+    font-size: 17px;
+}
+.messageBox>button{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 3px 14px;
+}
+.btn2{
+    font-size: 14px;
+    background-color: crimson;
+    color: white;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 3px 14px;
+}
